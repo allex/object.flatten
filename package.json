@@ -1,0 +1,15 @@
+{
+  "name": "object.flatten",
+  "version": "1.0.1",
+  "description": "Object flatten/un-flatten utilities.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && mocha"
+  },
+  "author": "allex <allex.wxn@gmail.com> (http://iallex.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.5.3"
+  }
+}
