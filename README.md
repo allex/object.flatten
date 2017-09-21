@@ -11,7 +11,7 @@ npm i object.flatten
 ## Example
 
 ```js
-const { flatten, unflatten } = require('object-flatten')
+const { flatten, unflatten } = require('object.flatten')
 const assert = require('assert')
 
 const obj = {
@@ -53,5 +53,4 @@ console.log(params)
 // un-flatten params to json
 const data = unflatten(params)
 assert.deepEqual(obj, data) // true
-
 ```
